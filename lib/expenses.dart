@@ -33,7 +33,7 @@ class Expenses extends StatefulWidget{
     return Scaffold(body: Column(
       children: const [
         Text('The chart'),
-        Text('Expenses list...'),
+
       ],
     ),);
   }
