@@ -33,6 +33,7 @@ class Expenses extends StatefulWidget{
 
    void _openAddExpenseOverlay(){
      showModalBottomSheet(
+       isScrollControlled: true,
          context: context,
          builder: (ctx) => NewExpense(onAddExpense: _addExpense),
      );
